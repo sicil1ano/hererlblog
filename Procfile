@@ -1,0 +1,1 @@
+web: erl -pa .\ebin .\deps\ranch\ebin .\deps\cowlib\ebin .\deps\cowboy\ebin -s hererlblog
