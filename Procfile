@@ -1,1 +1,1 @@
-web: erl -pa .\ebin .\deps\ranch\ebin .\deps\cowlib\ebin .\deps\cowboy\ebin -s hererlblog
+web: erl -pa ebin deps/*/ebin -noshell -noinput -s hererlblog
